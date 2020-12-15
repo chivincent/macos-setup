@@ -55,21 +55,11 @@ cp dotfiles/zshrc ~/.zshrc
 
 ## Others
 
-### PHP
+### PHP, Python and Nodejs
 
 ```
 composer global require phpunit/phpunit psy/psysh
-```
-
-### Python
-
-```
 pip install fastapi unvicorn
-```
-
-### Nodejs
-
-```
 npm install -g typescript
 ```
 
