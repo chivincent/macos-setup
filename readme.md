@@ -70,4 +70,15 @@ gh auth login --web
 gh config set git_protocol ssh
 ```
 
+### SSH
 
+```
+ssh-keygen -t ed25519 -C "mbp2016"
+# ssh-keygen -t rsa -b 4096 -C "mbp2016"
+
+cp conf/ssh_config ~/.ssh/config
+
+eval "$(ssh-agent -s)"
+ssh-add -K ~/.ssh/id_ed25519
+# ssh-add -K ~/.ssh/id_rsa
+```
