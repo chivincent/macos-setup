@@ -16,7 +16,7 @@
 
 ```
 brew install \
-	wget curl vim zsh git \
+	wget curl vim zsh git svn \
 	coreutils findutils gnu-tar gnu-sed gawk gnutls gnu-getopt grep \
 	fzf htop gh git-flow-avh p7zip lsd jq \
 	composer nodejs go rust python
@@ -25,18 +25,17 @@ brew install \
 #### Cask
 
 ```
-brew install --cask \
-	microsoft-edge dropbox squirrel protonvpn protonmail-bridge \
-	iterm2 visual-studio-code docker lens phpstorm
+brew install --cask squirrel
 ```
 
 #### Fonts
 
 ```
+brew tap homebrew/cask-fonts
 brew install --cask \
 	font-source-code-pro \
 	font-noto-sans font-noto-sans-cjk-tc font-noto-serif font-noto-serif-cjk-tc \
-	font-jetbrains-mono
+	font-jetbrains-mono font-hack-nerd-font
 ```
 
 ## ZSH
